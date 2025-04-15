@@ -87,6 +87,9 @@ vim.keymap.set('n', '<leader>fh', '<cmd>Telescope find_files no_ignore=true<cr>'
 vim.keymap.set('n', '<leader>hi', '<cmd>Telescope oldfiles<cr>')
 vim.keymap.set('n', '<leader>ag', '<cmd>Telescope live_grep<cr>')
 
+-- Telescope for buffers
+vim.keymap.set('n', '<leader>fb', '<cmd>Telescope buffers<cr>')
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
